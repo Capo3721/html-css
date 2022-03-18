@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    /*Medidas absolutas: 
+    centímetro (cm)
+    milímetro (mm)
+    polegada (in)
+    píxel (px)
+
+    Medidas da tipografia de papel, não recomendado para telas:
+    ponto (pt)
+    paica (pc)
+    */
+
+    /*Medidas relativas:
+    em: medida relativa a altura de uma fonte maiúscula;
+    ex: medida relativa a altura x de uma fonte, ou seja, a letra minúscula;
+    rem: fonte que está configurada no body;
+    VW: relativo ao tamanho de uma tela, viewport (tela) porcentagem da largura;
+    VH: relativo ao tamanho de uma tela, porém quanto a altura;
+    %: porcentagem de uma altura.
+    */
+    /*
+    Recomenda-se utilizar as medidas em e px.
+    1 em equivale a 16 px. 16 px é a medida padrão de uma fonte.
+    */
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: rgb(85, 85, 3);
+
+}
+h1{
+    
+    /*
+    Ao invés de usar:
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    Pode-se usar:
+    shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font:italic bolder 3em 'Arial', 'san-serif';
+}
+h2{
+    font: bold 2em 'Arial';
+}
+p{
+    text-align: justify;
+    margin-top: 1%;
+   
+}

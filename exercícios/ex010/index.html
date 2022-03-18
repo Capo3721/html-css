@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <!--Quando o link for para outro site sem ser o seu mesmo, é interessante que esse link abra em outra aba.-->
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="blank" rel="external">repositório público no GitHub.</a></p>
+
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="blank" rel="external"> canal gratuito no Youtube.</a></p>
+
+    <h2>Lista de sites preferidos</h2>
+    <ul type="circle">
+        <li><a href="https://youtube.com" target="blank" rel="external">Youtube.com</a></li>
+        <li><a href="https://gmail.com" target="blank" rel="external">Gmail.com</a></li>
+        <li><a href="https://globo.com" target="blank" rel="external">G1.com</a></li>
+    </ul>
+
+    <h2>Usando links internos</h2>
+    <p>Daqui você pode acessar a <a href="pag002.html" rel="next">página 2 do site!</a></p>
+    <p>Já daqui, você acessa a <a href="noticias/pag003.html" rel="next">página 3 do site!!</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/receita.pdf" download="receita.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/receita.zip">Livro compactado em ZIP</a></li>
+    </ul>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem2.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem.png" type="image/png">
+        <img src="noticias/" alt="Imagem de fundo">
+    </picture>
+    <br>
+    <audio src="midia/I Will Find.mp3" autoplay controls></audio>
+    <br>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/I Will Find.mp3" type="audio/mpeg">
+        <source src="midia/I Will Find.ogg" type="audio/ogg">
+    </audio>
+    <p>Caso a música não esteja tocando, <a href="midia/I Will Find.mp3">você pode baixa-la por aqui.</a></p>
+    
+
+</body>
+</html>
