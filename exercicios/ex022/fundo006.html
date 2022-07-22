@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela e shorthand</title>
     <style>
         body{
+            
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
@@ -15,11 +16,22 @@
             /*background-size: contain; deixa a imagem 100% exibida*/
             background-size: cover; /*ocupa 100% da tela (vh)*/
             /*O background-size pode ser usado com pixels, porcentagem da vh, contain ou o cover*/
+            background-attachment: fixed; /*Cria um vínculo entre o conteúdo e o fundo da tela*/
 
+            /*
+            shorthand - background
+            o comando size ainda não serve na shorthand, por isso os parenteses.
+
+            color > image > position > repeat > (size) > attachment
+            
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            */
+            
         }
         main{
             background-color: white;
-            width: 480px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -35,7 +47,23 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis reprehenderit vel ullam dolorum? Repudiandae ipsa corporis enim, id iure porro aperiam iusto? Neque iure ratione deleniti debitis impedit corrupti?
-            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime porro eum, distinctio quas quasi illo, nam dicta quia incidunt atque, sit nobis molestias inventore ab ad veniam doloribus eveniet?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius sapiente maxime dicta ea soluta voluptatem deserunt, repellat tenetur accusantium! Deserunt sapiente laborum quam doloribus voluptas dolorem eligendi nemo ipsum?
+            Lorem ipsum 
         </p>
     </main>
     
