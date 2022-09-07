@@ -1,26 +1,27 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
+    margin: 0x;
     padding: 0px;
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
-    
+
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+
 }
 
 header>h1{
     padding-top: 50px;
-    text-transform: uppercase;
-    /*font-variant: small-caps;*/
+    /*text-transform: uppercase*/
+    font-variant: small-caps;
 }
 
 header>p{
@@ -42,22 +43,21 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+
 }
 
 section.normal{
     background-color: white;
     color: black;
 }
-
 section.imagem{
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(42, 41, 41);
     color: white;
-
 }
 
-section.imagem>p{
+section.imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.173);
+    background-color: rgba(0, 0, 0, 0.225);
 }
 
 footer{
