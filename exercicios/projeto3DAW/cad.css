@@ -11,7 +11,7 @@
 }
 
 html, body{
-    margin:0 auto;
+    margin: auto;
     padding-top: 0px;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -44,8 +44,6 @@ section.container{
     text-decoration: none;
     min-height: 500px;
     
-    
-   
 }
 .login-form{
     max-width: 400px;
@@ -63,8 +61,8 @@ section.container{
       text-decoration: none;
   }
 
-  .login-form>.espace{
-      width: 230px;
+  .espace{
+      width: 220px;
   }
 
   .c-button {
@@ -89,7 +87,40 @@ section.container{
     opacity: 0.7;
   
   }
+
+  .solopcao{
+      background-color: rgb(227, 211, 211);
+      border: solid black;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      min-height: 200px;
+  }
   
+  .opcao{
+      font-size: 15px;
+      text-decoration: none;
+      line-height: 5px;
+      margin-left: 2px;
+  }
+
+  .valores{
+    max-width: 400px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.24);
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 110px;
+    font-size: 20px;
+    line-height: 20px;
+
+  }
+  .valores>input{
+      min-width: 100px;
+  }
+
   footer{
     background-color: black;
     text-align: center;
